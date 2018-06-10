@@ -1,6 +1,6 @@
-# Finding Lane Lines on the Road #
+## Finding Lane Lines on the Road ##
 
-## The goal of this project is to create a pipeline that finds lane lines on the road ##
+### The goal of this project is to create a pipeline that finds lane lines on the road ###
 
 ---
 
