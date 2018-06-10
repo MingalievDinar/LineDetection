@@ -1,14 +1,11 @@
-**Finding Lane Lines on the Road**
+# Finding Lane Lines on the Road #
 
-The goal of this project is to create a pipeline that finds lane lines on the road
+## The goal of this project is to create a pipeline that finds lane lines on the road ##
 
-[//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./examples/laneLines_thirdPass.jpg "Example of Line detection"
 
 ---
-
-### Reflection
 
 ### 1. Pipeline description.
 
@@ -25,5 +22,3 @@ The pipeline is unreliable when a car turns left or right and on too bright road
 A possible improvement would be to replace an average function by weighted average or to take into account X and Y of lines that are closest to the car or make a polynomial (n = 2) regression 
 
 Another potential improvement could be to make two regressions (Y = A*X + B and Y = A*X^2 + B*X + C) and extrapolate lines by one which is the most predictive.
-
-### 4. Results
