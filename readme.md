@@ -2,9 +2,6 @@
 
 ## The goal of this project is to create a pipeline that finds lane lines on the road ##
 
-
-[image1]: ./examples/laneLines_thirdPass.jpg "Example of Line detection"
-
 ---
 
 ### 1. Pipeline description.
@@ -12,6 +9,10 @@
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I applied Gaussian smoothing and Canny procedure to detect edges.
 
 In order to draw a single line on the left and right lanes, I created the draw_lines() function by averaging line coordinates. Also, I decided to make separate mask for left and right sides.
+
+As the result you can see detected lines on the following picture:
+![Line detection](examples/laneLines_thirdPass.jpg)
+
 
 ### 2. Potential shortcomings with the current pipeline
 
