@@ -9,7 +9,7 @@
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I applied Gaussian smoothing and Canny procedure to detect edges.
 
 In order to draw a single line on the left and right lanes, I created the draw_lines() function by averaging line coordinates. Also, I decided to make separate mask for left and right sides.
-
+You can see the [final Jupyter Nonebook with all steps by the link](Finding Lane Lines on the Road.ipynb)
 As the result you can see detected lines on the following picture:
 ![Line detection](examples/laneLines_thirdPass.jpg)
 
